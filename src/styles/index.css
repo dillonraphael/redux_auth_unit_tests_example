@@ -1,0 +1,40 @@
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-appear-active,
+.fade-enter-active {
+  transition: opacity .3s linear;
+  opacity: 1;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+}
+
+
+input[type="password"], input[type="text"] {
+  width: 94%;
+  border: 2px solid #e8e8e8;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  margin-bottom: 1rem;
+} 
+
+@media(min-width: 760px) {
+  input[type="password"], input[type="text"] {
+    width: 100%;
+    border: 2px solid #e8e8e8;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    margin-bottom: 1rem;
+  }
+   
+}
